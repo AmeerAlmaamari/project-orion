@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+<link href="{{ url_for('static', filename='bootstrap-4-navbar.css') }}" rel="stylesheet">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<title>Orion Book Group</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: url("{{url_for('static', filename='images/coverImage.JPG')}}");
+  background-color: #cccccc;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <!-- <h1 style="font-size:50px">Orion Project</h1> -->
+    <h3 class="display-3 text-light">Orion Project</h3>
+    <p class="text-light">This project was an assignment for CS213 in Qassim Uni</p>
+        <p class="text-light">This project was an assignment for CS213 in Qassim Uni</p>
+    <br>
+
+    <div class="row">
+
+    <a href="{{url_for('home')}}"><button type="button" class="btn btn-outline-light">Home</button></a>
+                </div>
+    <div class="row">
+
+
+    <a href="{{url_for('dashboard')}}"><button type="button" class="btn btn-outline-light">dashboard</button></a>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

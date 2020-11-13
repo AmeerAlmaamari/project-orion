@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>{{title}}</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/dashboard/">
+    
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='dashboard.css') }}">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+  <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="{{url_for('home')}}"><strong><h4><i class="fa fa-globe"></i> Orion</h4></strong></a>
+  <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+</nav>
+
+<div class="container-fluid">
+  <div class="row">
+    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+      <div class="sidebar-sticky pt-3">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="{{url_for('dashboard')}}">
+              <span data-feather="home"></span>
+              Dashboard <span class="sr-only"></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{url_for('about')}}">
+              <span data-feather="info"></span>
+              About
+            </a>
+          </li>
+        </ul>
+
+        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+          <span>Resources</span>
+        </h6>
+        <ul class="nav flex-column mb-2">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span data-feather="file-text"></span>
+              Python Recourses
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span data-feather="file-text"></span>
+              Flask Recourses
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span data-feather="file-text"></span>
+              Web Development Recourses
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span data-feather="file-text"></span>
+              Data Analysis & Visualization Recourses
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="mr-auto p-2">
+              <h1 class="h2">Dashboard</h1>  
+            </div>
+          </div>
+        </div>
+
+        
+        <br>
+        <div class="row">
+          <div class="col">
+            <div id="accordion">
+              <div class="card">
+                <a class="card-link" data-toggle="collapse" href="#collapse0">
+                  <div class="card-header">
+                    <h5><i class="fa fa-upload"></i> Upload</h5>
+                  </div>
+                </a>
+                  
+                <div id="collapse0" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col">
+                        <form action="{{url_for('upload_csv')}}" method=post enctype=multipart/form-data>
+                          <input type=file name=file>
+                          <input type=submit value=Upload>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <a class="card-link" data-toggle="collapse" href="#GDD">
+                  <div class="card-header">
+                    <h5><i class="fa fa-table"></i> Generate Dummy Data</h5>
+                  </div>
+                </a>
+                  
+                <div id="GDD" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col">
+                        <form action="{{url_for('generate_data')}}" method=post>
+                          <label for="num_samples">Number of Samples: </label>
+                          <input type=number id="num_samples" name=num_samples>
+                          <input type=submit value=Generate>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <a class="card-link" data-toggle="collapse" href="#collapse1">
+                  <div class="card-header">
+                    <h5><i class="fa fa-file"></i> Summary</h5>
+                  </div>
+                </a>
+                <div id="collapse1" class="collapse show" data-parent="#accordion">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col mb-2">
+                        <div class="card bg-light mb-2 h-100">
+                          <div class="card-header"><span data-feather="book-open"></span> Books</div>
+                          <div class="card-body">
+                            <h5 class="card-title">Number of <strong>books</strong> read by members:</h5>
+                            <p class="card-text">After analyzing the data I found out that the members read <strong> {{summary[0]}} </strong> Books</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col mb-2">
+                        <div class="card bg-light mb-2 h-100">
+                          <div class="card-header"><span data-feather="file-text"></span> Pages</div>
+                          <div class="card-body">
+                            <h5 class="card-title">Number of <strong>pages</strong> read by members:</h5>
+                            <p class="card-text">After analyzing the data I found out that the members read <strong> {{summary[1]}} </strong> Pages</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="card">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapse2">
+                  <div class="card-header">
+                    <h5><i class="fa fa-users"></i> Members Ranking</h5>
+                  </div>
+                </a>
+                <div id="collapse2" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col mb-2">
+                        <div class="table-responsive">
+                          <table class="table table-striped table-sm">
+                            <thead>
+                              <tr>
+                                <th>#</th>
+                                {%for col in user_sum.columns %}
+                                  <th>{{col}}</th>
+                                {%endfor%}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {%for index, row in user_sum.iterrows() %}
+                              <tr>
+                                <td>{{index+1}}</td>
+                                {%for col in user_sum.columns %}
+                                  <td>{{row[col]}}</td>
+                                {%endfor%}
+                              </tr>
+                              {%endfor%}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="col mb-2">
+                        <img src="{{url_for('static', filename='images/Members Ranking.svg')}}" class="img-fluid" alt="Members Ranking">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="card">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapse3">
+                  <div class="card-header">
+                    <h5><i class="fa fa-th-large"></i> Categories Ranking</h5>
+                  </div>
+                </a>
+                <div id="collapse3" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col mb-2">
+                        <div class="table-responsive">
+                          <table class="table table-striped table-sm">
+                            <thead>
+                              <tr>
+                                <th>#</th>
+                                {%for col in genre_sum.columns %}
+                                  <th>{{col}}</th>
+                                {%endfor%}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {%for index, row in genre_sum.iterrows() %}
+                              <tr>
+                                <td>{{index+1}}</td>
+                                {%for col in genre_sum.columns %}
+                                  <td>{{row[col]}}</td>
+                                {%endfor%}
+                              </tr>
+                              {%endfor%}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="col mb-2">
+                        <img src="{{url_for('static', filename='images/Categories Ranking.svg')}}" class="img-fluid" alt="Categories Ranking">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapse4">
+                  <div class="card-header">
+                    <h5><i class="fa fa-book"></i> Books Ranking</h5>
+                  </div>
+                </a>
+                <div id="collapse4" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col mb-2">
+                        <div class="table-responsive">
+                          <table class="table table-striped table-sm">
+                            <thead>
+                              <tr>
+                                <th>#</th>
+                                {%for col in book_sum.columns %}
+                                  <th>{{col}}</th>
+                                {%endfor%}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {%for index, row in book_sum.iterrows() %}
+                              <tr>
+                                <td>{{index+1}}</td>
+                                {%for col in book_sum.columns %}
+                                  <td>{{row[col]}}</td>
+                                {%endfor%}
+                              </tr>
+                              {%endfor%}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="col mb-2">
+                        <img src="{{url_for('static', filename='images/Books Ranking.svg')}}" class="img-fluid" alt="Books Ranking">
+                      </div>
+                    </div>
+              </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapse5">
+                  <div class="card-header">
+                    <h5><i class="fa fa-slack"></i> Number of Books Read per User</h5>
+                  </div>
+                </a>
+                <div id="collapse5" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col mb-2">
+                        <div class="table-responsive">
+                          <table class="table table-striped table-sm">
+                            <thead>
+                              <tr>
+                                <th>#</th>
+                                {%for col in book_per_user.columns %}
+                                  <th>{{col}}</th>
+                                {%endfor%}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {%for index, row in book_per_user.iterrows() %}
+                              <tr>
+                                <td>{{index+1}}</td>
+                                {%for col in book_per_user.columns %}
+                                  <td>{{row[col]}}</td>
+                                {%endfor%}
+                              </tr>
+                              {%endfor%}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="col mb-2">
+                        <img src="{{url_for('static', filename='images/Number of Books Read per User.svg')}}" class="img-fluid" alt="Number of Books Read per User">
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <br>
+        </div>
+      </div>
+        
+    </div>
+      
+
+      <!-- <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas> -->
+      
+      
+  </main>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="{{ url_for('static', filename='bootstrap.bundle.min.js') }}"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+        <script src="{{ url_for('static', filename='dashboard.js') }}"></script></body>
+</html>
