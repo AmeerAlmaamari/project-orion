@@ -152,11 +152,11 @@ def upload_csv():
 @app.route("/generate_data", methods=['GET', 'POST'])
 def generate_data():
     if request.method == "POST":
-        names = ["Ahmed", "Ali", "Mohammed", "Sami", "Ameer", "Jana", "Anwar", "Abdullah", "Tareq","Samia","Khaldon"]
-        books = [{"Name":"GoT", "Genre":"Fantasy", "Pages":350},
+        names = ["Ahmed", "Ali", "Mohammed", "Sami", "Ameer", "Jana", "Anwar", "Abdullah", "Tareq","Osama","Khaldon"]
+        books = [{"Name":"Game Of Thrones", "Genre":"Fantasy", "Pages":350},
             {"Name":"Harry Poter", "Genre":"Fantasy", "Pages":1000},
             {"Name":"Algorithms", "Genre":"Education", "Pages":220},
-            {"Name":"50 Shades of Gray", "Genre":"Romance", "Pages":120},
+            {"Name":"The Serpent Garden", "Genre":"Romance", "Pages":120},
             {"Name":"Say Yes to Yourself and No to Others", "Genre":"Self Dev", "Pages":80},
             {"Name":"Romeo and Juliet", "Genre":"Romance", "Pages":410}]
 

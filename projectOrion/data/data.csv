@@ -1,151 +1,101 @@
 ,Name,Email,Phone,Book,Genre,Pages Read
-0,Jana,Jana@orion.com,555597128,Algorithms,Education,56
-1,Samia,Samia@orion.com,561625284,50 Shades of Gray,Romance,45
-2,Ameer,Ameer@orion.com,520682864,Romeo and Juliet,Romance,153
-3,Abdullah,Abdullah@orion.com,547835316,GoT,Fantasy,7
-4,Samia,Samia@orion.com,561625284,50 Shades of Gray,Romance,29
-5,Khaldon,Khaldon@orion.com,542859379,Algorithms,Education,97
-6,Mohammed,Mohammed@orion.com,550188763,Romeo and Juliet,Romance,84
-7,Mohammed,Mohammed@orion.com,550188763,Say Yes to Yourself and No to Others,Self Dev,5
-8,Anwar,Anwar@orion.com,542960946,50 Shades of Gray,Romance,35
-9,Jana,Jana@orion.com,555597128,Romeo and Juliet,Romance,85
-10,Ahmed,Ahmed@orion.com,514520140,Romeo and Juliet,Romance,108
-11,Tareq,Tareq@orion.com,588467158,50 Shades of Gray,Romance,21
-12,Abdullah,Abdullah@orion.com,547835316,Algorithms,Education,96
-13,Samia,Samia@orion.com,561625284,50 Shades of Gray,Romance,51
-14,Samia,Samia@orion.com,561625284,Harry Poter,Fantasy,201
-15,Sami,Sami@orion.com,581481263,50 Shades of Gray,Romance,17
-16,Khaldon,Khaldon@orion.com,542859379,Say Yes to Yourself and No to Others,Self Dev,25
-17,Tareq,Tareq@orion.com,588467158,Harry Poter,Fantasy,269
-18,Jana,Jana@orion.com,555597128,50 Shades of Gray,Romance,7
-19,Ameer,Ameer@orion.com,520682864,Romeo and Juliet,Romance,198
-20,Tareq,Tareq@orion.com,588467158,GoT,Fantasy,69
-21,Khaldon,Khaldon@orion.com,542859379,Algorithms,Education,55
-22,Ameer,Ameer@orion.com,520682864,GoT,Fantasy,120
-23,Khaldon,Khaldon@orion.com,542859379,50 Shades of Gray,Romance,55
-24,Khaldon,Khaldon@orion.com,542859379,GoT,Fantasy,133
-25,Sami,Sami@orion.com,581481263,GoT,Fantasy,95
-26,Jana,Jana@orion.com,555597128,GoT,Fantasy,65
-27,Ameer,Ameer@orion.com,520682864,Harry Poter,Fantasy,240
-28,Abdullah,Abdullah@orion.com,547835316,Algorithms,Education,94
-29,Mohammed,Mohammed@orion.com,550188763,Algorithms,Education,38
-30,Ahmed,Ahmed@orion.com,514520140,Say Yes to Yourself and No to Others,Self Dev,31
-31,Jana,Jana@orion.com,555597128,Romeo and Juliet,Romance,198
-32,Ali,Ali@orion.com,536432443,GoT,Fantasy,124
-33,Tareq,Tareq@orion.com,588467158,50 Shades of Gray,Romance,56
-34,Ali,Ali@orion.com,536432443,Romeo and Juliet,Romance,26
-35,Jana,Jana@orion.com,555597128,50 Shades of Gray,Romance,40
-36,Khaldon,Khaldon@orion.com,542859379,Romeo and Juliet,Romance,147
-37,Tareq,Tareq@orion.com,588467158,Romeo and Juliet,Romance,149
-38,Samia,Samia@orion.com,561625284,GoT,Fantasy,158
-39,Ameer,Ameer@orion.com,520682864,Romeo and Juliet,Romance,20
-40,Samia,Samia@orion.com,561625284,Romeo and Juliet,Romance,45
-41,Abdullah,Abdullah@orion.com,547835316,Romeo and Juliet,Romance,26
-42,Khaldon,Khaldon@orion.com,542859379,Say Yes to Yourself and No to Others,Self Dev,39
-43,Samia,Samia@orion.com,561625284,50 Shades of Gray,Romance,23
-44,Ahmed,Ahmed@orion.com,514520140,Romeo and Juliet,Romance,116
-45,Ali,Ali@orion.com,536432443,Romeo and Juliet,Romance,152
-46,Mohammed,Mohammed@orion.com,550188763,GoT,Fantasy,59
-47,Ali,Ali@orion.com,536432443,50 Shades of Gray,Romance,25
-48,Khaldon,Khaldon@orion.com,542859379,Harry Poter,Fantasy,91
-49,Sami,Sami@orion.com,581481263,Romeo and Juliet,Romance,40
-50,Ahmed,Ahmed@orion.com,514520140,Algorithms,Education,34
-51,Abdullah,Abdullah@orion.com,547835316,GoT,Fantasy,126
-52,Jana,Jana@orion.com,555597128,50 Shades of Gray,Romance,45
-53,Samia,Samia@orion.com,561625284,Harry Poter,Fantasy,166
-54,Khaldon,Khaldon@orion.com,542859379,Harry Poter,Fantasy,380
-55,Anwar,Anwar@orion.com,542960946,Harry Poter,Fantasy,329
-56,Ali,Ali@orion.com,536432443,Romeo and Juliet,Romance,130
-57,Abdullah,Abdullah@orion.com,547835316,Romeo and Juliet,Romance,169
-58,Anwar,Anwar@orion.com,542960946,Romeo and Juliet,Romance,151
-59,Ameer,Ameer@orion.com,520682864,Algorithms,Education,47
-60,Samia,Samia@orion.com,561625284,GoT,Fantasy,14
-61,Khaldon,Khaldon@orion.com,542859379,Romeo and Juliet,Romance,205
-62,Abdullah,Abdullah@orion.com,547835316,Say Yes to Yourself and No to Others,Self Dev,21
-63,Khaldon,Khaldon@orion.com,542859379,Harry Poter,Fantasy,225
-64,Ali,Ali@orion.com,536432443,50 Shades of Gray,Romance,44
-65,Khaldon,Khaldon@orion.com,542859379,Algorithms,Education,6
-66,Sami,Sami@orion.com,581481263,Romeo and Juliet,Romance,144
-67,Jana,Jana@orion.com,555597128,GoT,Fantasy,33
-68,Anwar,Anwar@orion.com,542960946,Harry Poter,Fantasy,364
-69,Ali,Ali@orion.com,536432443,Say Yes to Yourself and No to Others,Self Dev,29
-70,Ameer,Ameer@orion.com,520682864,Algorithms,Education,66
-71,Ameer,Ameer@orion.com,520682864,Say Yes to Yourself and No to Others,Self Dev,7
-72,Ali,Ali@orion.com,536432443,GoT,Fantasy,106
-73,Anwar,Anwar@orion.com,542960946,Harry Poter,Fantasy,170
-74,Abdullah,Abdullah@orion.com,547835316,Romeo and Juliet,Romance,55
-75,Mohammed,Mohammed@orion.com,550188763,50 Shades of Gray,Romance,37
-76,Sami,Sami@orion.com,581481263,Say Yes to Yourself and No to Others,Self Dev,34
-77,Ali,Ali@orion.com,536432443,GoT,Fantasy,144
-78,Jana,Jana@orion.com,555597128,Harry Poter,Fantasy,437
-79,Mohammed,Mohammed@orion.com,550188763,GoT,Fantasy,152
-80,Jana,Jana@orion.com,555597128,Harry Poter,Fantasy,309
-81,Mohammed,Mohammed@orion.com,550188763,Say Yes to Yourself and No to Others,Self Dev,14
-82,Anwar,Anwar@orion.com,542960946,Say Yes to Yourself and No to Others,Self Dev,6
-83,Abdullah,Abdullah@orion.com,547835316,GoT,Fantasy,166
-84,Anwar,Anwar@orion.com,542960946,Say Yes to Yourself and No to Others,Self Dev,37
-85,Anwar,Anwar@orion.com,542960946,50 Shades of Gray,Romance,28
-86,Mohammed,Mohammed@orion.com,550188763,50 Shades of Gray,Romance,41
-87,Jana,Jana@orion.com,555597128,Say Yes to Yourself and No to Others,Self Dev,39
-88,Ameer,Ameer@orion.com,520682864,GoT,Fantasy,34
-89,Abdullah,Abdullah@orion.com,547835316,GoT,Fantasy,52
-90,Khaldon,Khaldon@orion.com,542859379,Harry Poter,Fantasy,340
-91,Ameer,Ameer@orion.com,520682864,Algorithms,Education,92
-92,Samia,Samia@orion.com,561625284,50 Shades of Gray,Romance,27
-93,Samia,Samia@orion.com,561625284,Harry Poter,Fantasy,476
-94,Abdullah,Abdullah@orion.com,547835316,50 Shades of Gray,Romance,10
-95,Sami,Sami@orion.com,581481263,GoT,Fantasy,39
-96,Ali,Ali@orion.com,536432443,GoT,Fantasy,77
-97,Samia,Samia@orion.com,561625284,Harry Poter,Fantasy,335
-98,Khaldon,Khaldon@orion.com,542859379,GoT,Fantasy,110
-99,Ameer,Ameer@orion.com,520682864,Harry Poter,Fantasy,183
-100,Samia,Samia@orion.com,554149404,Algorithms,Education,15
-101,Ameer,Ameer@orion.com,541205196,Algorithms,Education,54
-102,Ameer,Ameer@orion.com,541205196,GoT,Fantasy,75
-103,Anwar,Anwar@orion.com,577451055,Romeo and Juliet,Romance,86
-104,Mohammed,Mohammed@orion.com,597872557,Romeo and Juliet,Romance,101
-105,Abdullah,Abdullah@orion.com,555831329,Romeo and Juliet,Romance,24
-106,Tareq,Tareq@orion.com,562004612,Say Yes to Yourself and No to Others,Self Dev,13
-107,Sami,Sami@orion.com,593215302,Harry Poter,Fantasy,90
-108,Ameer,Ameer@orion.com,541205196,Romeo and Juliet,Romance,52
-109,Samia,Samia@orion.com,554149404,Harry Poter,Fantasy,363
-110,Sami,Sami@orion.com,530319663,Algorithms,Education,103
-111,Ameer,Ameer@orion.com,578610418,Algorithms,Education,83
-112,Tareq,Tareq@orion.com,545894868,GoT,Fantasy,23
-113,Ali,Ali@orion.com,541672763,Harry Poter,Fantasy,32
-114,Abdullah,Abdullah@orion.com,595643027,Harry Poter,Fantasy,142
-115,Mohammed,Mohammed@orion.com,590766824,Say Yes to Yourself and No to Others,Self Dev,29
-116,Samia,Samia@orion.com,562716853,Algorithms,Education,64
-117,Ameer,Ameer@orion.com,578610418,GoT,Fantasy,131
-118,Sami,Sami@orion.com,530319663,Harry Poter,Fantasy,490
-119,Ahmed,Ahmed@orion.com,550676347,GoT,Fantasy,106
-120,Ameer,Ameer@orion.com,578610418,Romeo and Juliet,Romance,140
-121,Samia,Samia@orion.com,562716853,50 Shades of Gray,Romance,5
-122,Anwar,Anwar@orion.com,541723244,Harry Poter,Fantasy,320
-123,Anwar,Anwar@orion.com,541723244,50 Shades of Gray,Romance,45
-124,Ahmed,Ahmed@orion.com,550676347,Harry Poter,Fantasy,123
-125,Sami,Sami@orion.com,530319663,Say Yes to Yourself and No to Others,Self Dev,20
-126,Samia,Samia@orion.com,562716853,GoT,Fantasy,21
-127,Anwar,Anwar@orion.com,541723244,Romeo and Juliet,Romance,70
-128,Sami,Sami@orion.com,530319663,Algorithms,Education,90
-129,Tareq,Tareq@orion.com,545894868,50 Shades of Gray,Romance,40
-130,Anwar,Anwar@orion.com,541723244,Romeo and Juliet,Romance,85
-131,Tareq,Tareq@orion.com,545894868,Algorithms,Education,23
-132,Ameer,Ameer@orion.com,578610418,Harry Poter,Fantasy,224
-133,Anwar,Anwar@orion.com,541723244,GoT,Fantasy,56
-134,Ahmed,Ahmed@orion.com,550676347,Say Yes to Yourself and No to Others,Self Dev,32
-135,Tareq,Tareq@orion.com,545894868,GoT,Fantasy,132
-136,Sami,Sami@orion.com,530319663,GoT,Fantasy,128
-137,Abdullah,Abdullah@orion.com,595643027,Harry Poter,Fantasy,86
-138,Mohammed,Mohammed@orion.com,590766824,50 Shades of Gray,Romance,50
-139,Abdullah,Abdullah@orion.com,595643027,Romeo and Juliet,Romance,32
-140,Anwar,Anwar@orion.com,541723244,GoT,Fantasy,81
-141,Ali,Ali@orion.com,541672763,Romeo and Juliet,Romance,50
-142,Jana,Jana@orion.com,550520109,Say Yes to Yourself and No to Others,Self Dev,20
-143,Abdullah,Abdullah@orion.com,595643027,Algorithms,Education,39
-144,Samia,Samia@orion.com,562716853,Say Yes to Yourself and No to Others,Self Dev,30
-145,Ameer,Ameer@orion.com,578610418,Harry Poter,Fantasy,255
-146,Anwar,Anwar@orion.com,541723244,Romeo and Juliet,Romance,35
-147,Sami,Sami@orion.com,530319663,Say Yes to Yourself and No to Others,Self Dev,18
-148,Khaldon,Khaldon@orion.com,587918153,Romeo and Juliet,Romance,156
-149,Anwar,Anwar@orion.com,541723244,50 Shades of Gray,Romance,50
+0,Khaldon,Khaldon@orion.com,0538025767,Harry Poter,Fantasy,467
+1,Abdullah,Abdullah@orion.com,0515275772,Algorithms,Education,14
+2,Sami,Sami@orion.com,0564734854,Harry Poter,Fantasy,492
+3,Ameer,Ameer@orion.com,0528886267,The Serpent Garden,Romance,30
+4,Jana,Jana@orion.com,0532897160,The Serpent Garden,Romance,6
+5,Osama,Osama@orion.com,0531278226,Harry Poter,Fantasy,410
+6,Osama,Osama@orion.com,0531278226,Harry Poter,Fantasy,338
+7,Jana,Jana@orion.com,0532897160,Say Yes to Yourself and No to Others,Self Dev,29
+8,Mohammed,Mohammed@orion.com,0520825157,Say Yes to Yourself and No to Others,Self Dev,36
+9,Jana,Jana@orion.com,0532897160,Say Yes to Yourself and No to Others,Self Dev,5
+10,Tareq,Tareq@orion.com,0587679456,The Serpent Garden,Romance,50
+11,Sami,Sami@orion.com,0564734854,Harry Poter,Fantasy,83
+12,Osama,Osama@orion.com,0531278226,Say Yes to Yourself and No to Others,Self Dev,38
+13,Sami,Sami@orion.com,0564734854,Algorithms,Education,105
+14,Mohammed,Mohammed@orion.com,0520825157,Game Of Thrones,Fantasy,124
+15,Sami,Sami@orion.com,0564734854,The Serpent Garden,Romance,22
+16,Anwar,Anwar@orion.com,0597912330,Romeo and Juliet,Romance,49
+17,Anwar,Anwar@orion.com,0597912330,Harry Poter,Fantasy,20
+18,Sami,Sami@orion.com,0564734854,Algorithms,Education,47
+19,Anwar,Anwar@orion.com,0597912330,Game Of Thrones,Fantasy,172
+20,Mohammed,Mohammed@orion.com,0520825157,The Serpent Garden,Romance,16
+21,Ahmed,Ahmed@orion.com,0516693155,Harry Poter,Fantasy,233
+22,Jana,Jana@orion.com,0532897160,Game Of Thrones,Fantasy,32
+23,Tareq,Tareq@orion.com,0587679456,Harry Poter,Fantasy,59
+24,Osama,Osama@orion.com,0531278226,Say Yes to Yourself and No to Others,Self Dev,24
+25,Anwar,Anwar@orion.com,0597912330,Romeo and Juliet,Romance,186
+26,Ahmed,Ahmed@orion.com,0516693155,Romeo and Juliet,Romance,67
+27,Mohammed,Mohammed@orion.com,0520825157,Say Yes to Yourself and No to Others,Self Dev,18
+28,Ameer,Ameer@orion.com,0528886267,Say Yes to Yourself and No to Others,Self Dev,23
+29,Ameer,Ameer@orion.com,0528886267,Game Of Thrones,Fantasy,155
+30,Anwar,Anwar@orion.com,0597912330,Game Of Thrones,Fantasy,116
+31,Khaldon,Khaldon@orion.com,0538025767,The Serpent Garden,Romance,57
+32,Anwar,Anwar@orion.com,0597912330,Harry Poter,Fantasy,140
+33,Abdullah,Abdullah@orion.com,0515275772,The Serpent Garden,Romance,16
+34,Osama,Osama@orion.com,0531278226,Algorithms,Education,82
+35,Khaldon,Khaldon@orion.com,0538025767,Harry Poter,Fantasy,257
+36,Anwar,Anwar@orion.com,0597912330,Romeo and Juliet,Romance,57
+37,Tareq,Tareq@orion.com,0587679456,Algorithms,Education,24
+38,Ahmed,Ahmed@orion.com,0516693155,Game Of Thrones,Fantasy,159
+39,Ameer,Ameer@orion.com,0528886267,Algorithms,Education,82
+40,Khaldon,Khaldon@orion.com,0538025767,Algorithms,Education,20
+41,Khaldon,Khaldon@orion.com,0538025767,Harry Poter,Fantasy,122
+42,Jana,Jana@orion.com,0532897160,The Serpent Garden,Romance,42
+43,Anwar,Anwar@orion.com,0597912330,Say Yes to Yourself and No to Others,Self Dev,35
+44,Khaldon,Khaldon@orion.com,0538025767,Romeo and Juliet,Romance,156
+45,Tareq,Tareq@orion.com,0587679456,The Serpent Garden,Romance,29
+46,Ahmed,Ahmed@orion.com,0516693155,Game Of Thrones,Fantasy,170
+47,Khaldon,Khaldon@orion.com,0538025767,Say Yes to Yourself and No to Others,Self Dev,10
+48,Tareq,Tareq@orion.com,0587679456,Say Yes to Yourself and No to Others,Self Dev,16
+49,Ahmed,Ahmed@orion.com,0516693155,The Serpent Garden,Romance,8
+50,Khaldon,Khaldon@orion.com,0538025767,Game Of Thrones,Fantasy,163
+51,Anwar,Anwar@orion.com,0597912330,Harry Poter,Fantasy,24
+52,Ameer,Ameer@orion.com,0528886267,Game Of Thrones,Fantasy,137
+53,Osama,Osama@orion.com,0531278226,Harry Poter,Fantasy,344
+54,Osama,Osama@orion.com,0531278226,Game Of Thrones,Fantasy,31
+55,Tareq,Tareq@orion.com,0587679456,The Serpent Garden,Romance,44
+56,Khaldon,Khaldon@orion.com,0538025767,The Serpent Garden,Romance,53
+57,Jana,Jana@orion.com,0532897160,Harry Poter,Fantasy,123
+58,Tareq,Tareq@orion.com,0587679456,Say Yes to Yourself and No to Others,Self Dev,18
+59,Osama,Osama@orion.com,0531278226,Romeo and Juliet,Romance,190
+60,Mohammed,Mohammed@orion.com,0520825157,Game Of Thrones,Fantasy,136
+61,Abdullah,Abdullah@orion.com,0515275772,Algorithms,Education,73
+62,Tareq,Tareq@orion.com,0587679456,The Serpent Garden,Romance,25
+63,Sami,Sami@orion.com,0564734854,Algorithms,Education,107
+64,Tareq,Tareq@orion.com,0587679456,Say Yes to Yourself and No to Others,Self Dev,29
+65,Abdullah,Abdullah@orion.com,0515275772,Romeo and Juliet,Romance,75
+66,Sami,Sami@orion.com,0564734854,Algorithms,Education,26
+67,Jana,Jana@orion.com,0532897160,Algorithms,Education,95
+68,Anwar,Anwar@orion.com,0597912330,Harry Poter,Fantasy,97
+69,Abdullah,Abdullah@orion.com,0515275772,Romeo and Juliet,Romance,185
+70,Jana,Jana@orion.com,0532897160,Algorithms,Education,39
+71,Mohammed,Mohammed@orion.com,0520825157,Romeo and Juliet,Romance,143
+72,Sami,Sami@orion.com,0564734854,Game Of Thrones,Fantasy,117
+73,Ahmed,Ahmed@orion.com,0516693155,Algorithms,Education,8
+74,Ahmed,Ahmed@orion.com,0516693155,The Serpent Garden,Romance,48
+75,Ali,Ali@orion.com,0553077348,Harry Poter,Fantasy,117
+76,Anwar,Anwar@orion.com,0597912330,Romeo and Juliet,Romance,16
+77,Jana,Jana@orion.com,0532897160,Say Yes to Yourself and No to Others,Self Dev,26
+78,Mohammed,Mohammed@orion.com,0520825157,Say Yes to Yourself and No to Others,Self Dev,19
+79,Mohammed,Mohammed@orion.com,0520825157,Romeo and Juliet,Romance,134
+80,Khaldon,Khaldon@orion.com,0538025767,Game Of Thrones,Fantasy,145
+81,Jana,Jana@orion.com,0532897160,Say Yes to Yourself and No to Others,Self Dev,18
+82,Ali,Ali@orion.com,0553077348,Say Yes to Yourself and No to Others,Self Dev,19
+83,Osama,Osama@orion.com,0531278226,Romeo and Juliet,Romance,202
+84,Sami,Sami@orion.com,0564734854,Algorithms,Education,49
+85,Khaldon,Khaldon@orion.com,0538025767,Harry Poter,Fantasy,286
+86,Abdullah,Abdullah@orion.com,0515275772,Romeo and Juliet,Romance,181
+87,Osama,Osama@orion.com,0531278226,The Serpent Garden,Romance,36
+88,Ameer,Ameer@orion.com,0528886267,Say Yes to Yourself and No to Others,Self Dev,37
+89,Osama,Osama@orion.com,0531278226,The Serpent Garden,Romance,54
+90,Ameer,Ameer@orion.com,0528886267,The Serpent Garden,Romance,58
+91,Anwar,Anwar@orion.com,0597912330,The Serpent Garden,Romance,11
+92,Anwar,Anwar@orion.com,0597912330,Say Yes to Yourself and No to Others,Self Dev,25
+93,Khaldon,Khaldon@orion.com,0538025767,Say Yes to Yourself and No to Others,Self Dev,6
+94,Ameer,Ameer@orion.com,0528886267,Harry Poter,Fantasy,86
+95,Abdullah,Abdullah@orion.com,0515275772,Romeo and Juliet,Romance,122
+96,Anwar,Anwar@orion.com,0597912330,Game Of Thrones,Fantasy,168
+97,Ali,Ali@orion.com,0553077348,Algorithms,Education,31
+98,Anwar,Anwar@orion.com,0597912330,Harry Poter,Fantasy,30
+99,Abdullah,Abdullah@orion.com,0515275772,Romeo and Juliet,Romance,197
