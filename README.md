@@ -7,7 +7,7 @@ INTRODUCTION
 
 A reading group data analysis project created with Python, Pandas , Flask , HTML , CSS and JS with the help of BootStrap.
 
-folder/file organizing of the files are built like a certain projects approach. 
+folder/file organizing of the files are built like certain projects approach. 
 
 
 Technologies
@@ -37,27 +37,26 @@ This file is responsible of initializing the project
 routes.py
 ------------
 
-The core file  where the project is created, contains some essential libraries in Python and several downloaded packages like Pandas, flask and matplotlib
-
+The core file  where the project is created, contains some essential libraries in Python and several downloaded packages like Pandas, flask and matplotlib...
 The file is also has the initial data of the reading group which are already saved as a CSV file.
 
 
-data file
+data folder
 ------------
 
-This file contains all of the generated data includes dummy data as CSV files in which the project takes to analyse them in routes.py file.
+This folder contains all of the generated data includes dummy data as CSV files in which the project takes to analyse them in routes.py file.
 
 
-static file
+static folder
 ------------
 
-This file contains the visual approach of the project, like BootStrap, CSS files , JS files and the images used to make the visualization.
+This folder contains the visual approach of the project, like BootStrap, CSS files , JS files and the images used to make the visualization.
 
 
-templaates file
+templaates folder
 ------------
 
-This file contains the HTML files of the 3 pages : Home , Dashboard and finally About
+This folder contains the HTML files of the 3 pages : Home , Dashboard and finally About
 
 
 How to run the project
