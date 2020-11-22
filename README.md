@@ -7,7 +7,7 @@ CONTENTS OF THIS FILE
 
  * Introduction
  * run.py
- * _init_.py
+ * init.py
   * routes.py
   * data file
   * static file
