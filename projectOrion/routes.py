@@ -160,7 +160,7 @@ def generate_data():
             {"Name":"Say Yes to Yourself and No to Others", "Genre":"Self Dev", "Pages":80},
             {"Name":"Romeo and Juliet", "Genre":"Romance", "Pages":410}]
 
-        users = [{"Name":name, "Email":f"{name}@orion.com", "Phone":f"05"+str(randint(10000000,99999999))} for name in names]
+        users = [{"Name":name, "Email":f"{name}@orion.com", "Phone":"05"+str(randint(10000000,99999999))} for name in names]
 
         data = pd.DataFrame(columns = ["Name","Email","Phone","Book","Genre","Pages Read"])
         for sample in range(int(request.form["num_samples"])):
