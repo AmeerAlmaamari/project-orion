@@ -16,6 +16,9 @@ Technologies
 * Pandas 1.1.4
 * Flask 1.1.2
 * BootStrap
+* HTML
+* CSS
+* Java Script
 * Matplotlib
 
 
