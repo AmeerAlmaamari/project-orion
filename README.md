@@ -6,8 +6,11 @@ CONTENTS OF THIS FILE
 ---------------------
 
  * Introduction
- * Files contents
- * Each .py contents
-  * How to run the program
-  * GUI
+ * run.py
+ * __init__.py
+  * routes.py
+  * data file
+  * static file
+  * templates file
+  * How to run the program 
   
