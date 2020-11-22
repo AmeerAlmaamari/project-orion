@@ -10,6 +10,15 @@ A reading group data analysis project created with Python, Pandas , Flask , HTML
 folder/file organizing of the files are built like a certain projects approach. 
 
 
+Technologies
+------------
+* Python 3.8
+* Pandas 1.1.4
+* Flask 1.1.2
+* BootStrap
+* Matplotlib
+
+
 run.py
 ------------
 
@@ -52,5 +61,5 @@ How to run the project
 ------------
 
 The project is built in a local server, therefore, it is needed to install some packages and tools (see the requirments inside requirements.txt)
-then launch the server from the CMD or any other launcher and head to the dicronary of run.py file and type (python run.py) then the URL of the local server will appear and you can copy it and paste it in any internet browser 
+then launch the server from the CMD or any other launcher and head to the dictionary of run.py file and type (python run.py) then the URL of the local server will appear and you can copy it and paste it in any internet browser 
   
