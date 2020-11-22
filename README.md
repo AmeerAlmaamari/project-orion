@@ -53,7 +53,7 @@ static folder
 This folder contains the visual approach of the project, like BootStrap, CSS files , JS files and the images used to make the visualization.
 
 
-templaates folder
+templates folder
 ------------
 
 This folder contains the HTML files of the 3 pages : Home , Dashboard and finally About
