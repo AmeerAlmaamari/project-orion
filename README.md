@@ -52,6 +52,5 @@ How to run the project
 ------------
 
 The project is built in a local server, therefore, it is needed to install some packages and tools (see the requirments inside requirements.txt)
-
 then launch the server from the CMD or any other launcher and head to the dicronary of run.py file and type (python run.py) then the URL of the local server will appear and you can copy it and paste it in any internet browser 
   
