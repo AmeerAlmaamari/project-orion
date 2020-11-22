@@ -6,7 +6,8 @@ CONTENTS OF THIS FILE
 ---------------------
 
  * Introduction
- * Installation
- * Starting the Bot
-  * Starting the Bot with Drush
-  * Starting the Bot with bot_start.php
+ * Files contents
+ * Each .py contents
+  * How to run the program
+  * GUI
+  
